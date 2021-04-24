@@ -1,0 +1,3 @@
+/home/pi/opencv/demo2/CMakeFiles/rebuild_cache.dir
+/home/pi/opencv/demo2/CMakeFiles/Main.dir
+/home/pi/opencv/demo2/CMakeFiles/edit_cache.dir

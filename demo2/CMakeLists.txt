@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( Main )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( Main Main.cpp DetectChars.cpp DetectPlates.cpp PossibleChar.cpp PossiblePlate.cpp Preprocess.cpp)
+target_link_libraries( Main ${OpenCV_LIBS} )
